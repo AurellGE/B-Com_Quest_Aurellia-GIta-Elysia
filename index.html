@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>de Loop</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-4" href="#">de Loop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="d-flex nav-subcontainer">
+              <div class="navbar-nav">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" href="#about">About Us</a>
+                <a class="nav-link" href="#products">Products</a>
+              </div>
+              <div class="navbar-nav">
+                <a class="nav-link btn bg-brown text-white" href="#contact">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Home -->
+    <section id="home" class="bg-lightpeach min-vh-100 section">
+      <div class="container px-5 py-3">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="display-1 fw-normal">Look Fashionable in <span class="text-brown"> One Click </span></h1>
+            <p class="lead my-4">de Loop provides the best quality and trending fashion. With just <span>one click</span>, your desired products will be delivered to your home! </p>
+            <button class="btn bg-brown text-white fw-bold"><a class="home_a" href="#about"> Our Service</a></button>
+            <button class="btn text-brown fw-bold home_button"><a class="home_a home_a2" href="#products"> View Products <span class="iconify-inline" data-icon="bxs:right-arrow" style="color: #bf9270;"></span></a></button>
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-5 d-flex justify-content-center">
+            <img src="./Asset/Woman_orange jacket.jpg" class="home-img home-img-hover" alt="">
+            <img src="./Asset/Woman_Hijab.jpg" class="home-img" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="section">
+      <h1 class="display-5 fw-normal">We Offer the <span class="text-brown"> Best Quality </span></h1>
+      <div class="container px-5 py-3 mt-4">
+        <div class="row">
+          <div class="col-md-5 d-flex justify-content-center">
+            <img src="./Asset/about.jpg" class="home-img mt-0" style="width: 30rem; height: fit-content;" alt="">
+          </div>
+          <div class="col-md-1"></div>
+          <div class="col-md-6">
+            <h1 class="fs-4 fw-normal text-brown fst-italic">"Express yourself through fashion"</h1>
+            <p class="lead my-4">We strive to offer the best products with superior quality and ship it all around Indonesia with affordable price.</p>
+            <p class="lead my-4">Our designs mainly focused on comfort and trending fashion. We provide seasonal as well as all year round outfits.</p>
+            <p class="lead my-4">Don't know how to style? Take a look at our <span class="text-brown"> catalog! </span></p>
+            <div class="row">
+              <div class="col-md-6">
+                <li style="list-style: square;" class="lead text-brown fw-bold">High quality</li>
+                <li style="list-style: square;" class="lead text-brown fw-bold">Comfortable wear</li>
+              </div>
+              <div class="col-md-6">
+                <li style="list-style: square;" class="lead text-brown fw-bold">Guaranteed delivery</li>
+                <li style="list-style: square;" class="lead text-brown fw-bold">Generous price</li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Products -->
+    <section id="products" class="section">
+      <h1 class="display-5 fw-normal">Numerous Products for <span class="text-brown"> All Seasons! </span></h1>
+      <p class="lead my-4">We not only offer seasonal products, but also outfits you can wear all year round</p>
+      <div class="container px-5 py-3">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active w-100 item text-center">
+              <img src="./Asset/Woman_Dark outfit.jpg" class="d-inline w-25 h-50" alt="...">
+              <img src="./Asset/Woman_Hijab black.jpg" class="d-inline w-25 h-50" alt="...">
+              <img src="./Asset/Woman_Skirt.jpg" class="d-inline w-25" alt="...">
+            </div>
+            <div class="carousel-item w-100 item text-center">
+              <img src="./Asset/Woman_Peach outfit.jpg" class="d-inline w-25" alt="...">
+              <img src="./Asset/Man_brown.jpg" class="d-inline w-25" alt="...">
+              <img src="./Asset/Woman_autumn.jpg" class="d-inline w-25" alt="...">
+            </div>
+            <div class="carousel-item w-100 item text-center">
+              <img src="./Asset/Woman_red hair.jpg" class="d-inline w-25" alt="...">
+              <img src="./Asset/Man_black.jpg" class="d-inline w-25" alt="...">
+              <img src="./Asset/woman_white.jpg" class="d-inline w-25" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Us -->
+    <section id="contact" class="section">
+      <h1 class="display-5 fw-normal">Have a Question? <span class="text-brown"> Ask away! </span></h1>
+    
+      <div class="row mt-2 justify-content-between">
+        <form class="row g-3 col-md-7" id="form" action="#" onsubmit="validate()">
+          <div class="col-md-6">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Aurellia Gita" required>
+          </div>
+          <div class="col-md-6">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="dummy@domain.com" required>
+          </div>
+          <div class="col-md-12">
+            <label for="subject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="subject" required>
+          </div>
+          <div class="col-md-12">
+            <label for="message" class="form-label">Message</label>
+            <div class="col-sm-12">
+              <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+          </div>
+          
+          <div class="col-12 d-flex justify-content-end">
+            <button class="btn bg-brown text-white fw-bold" type="submit">Submit</button>
+          </div>
+        </form>
+        <div class="col-md-5">
+          <img src="./Asset/Asset.jpg" alt="" class="col-8 mt-5">
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#home" class="nav-link px-2 text-white">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link px-2 text-white">About</a></li>
+        <li class="nav-item"><a href="#products" class="nav-link px-2 text-white">Products</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link px-2 text-white">Contact Us</a></li>
+      </ul>
+      <div class="d-flex justify-content-between">
+        <div>
+          <p class="text-center text-white">© 2022 de Loop, Inc</p>
+        </div>
+        <div>
+          <a href="https://api.whatsapp.com/send/?phone=6281281157073&text&app_absent=0">
+            <span
+            class="iconify-inline"
+            data-icon="dashicons:whatsapp"
+            style="color: white; width: 50px; height: 25px;">
+            </span>
+          </a>
+          <a href="https://line.me/ti/p/~aurellialycia">
+            <span
+            class="iconify-inline"
+            data-icon="bi:line"
+            style="color: white; width: 50px; height: 25px;">
+            </span>
+          </a>
+          <a href="https://www.instagram.com/aurellialycia/" target="_blank">
+            <span
+              class="iconify-inline"
+              data-icon="ant-design:instagram-filled"
+              style="color: white; width: 50px; height: 25px;">
+            </span>
+          </a>
+          <a href="https://github.com/AurellGE" target="_blank">
+            <span
+              class="iconify-inline"
+              data-icon="uim:github-alt"
+              style="color: white; width: 50px; height: 25px;">
+            </span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</body>
+</html>
